@@ -60,9 +60,6 @@ def start_game():
         return "computer wins"
     elif player2 > player1:
         return "You win"
-    else:
-        return "It is a tie"
 
 
 print(start_game())
-
